@@ -1,0 +1,2 @@
+# Media_Backup
+A program that collects information about the media files in the directories specified, and has the capability of copying files to multiple external hard drives, that keeps a persistent record based on disk signatures to determine what hard drive has what copy, and assigns names to hard drives tied to a master list that tells what hard drive name has what on it, and also monitors for changes to directories specified, alerting the user to backup once a certain amount of data pops up. 
