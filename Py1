@@ -1,0 +1,21 @@
+import os
+import numpy
+
+#This class is meant to hold data surrounding each individual media file detected. 
+#Ideally, the name, path, and size of the file are used to help with GUI stuff, and backup stuff
+#The backup bool will be set to false by default, only changing once it has been confirmed backed up.
+class File_info
+{
+File_name = ""
+File_path = ""
+File_size = ""
+Backup = False
+Backup_Disk = ""
+}
+
+#This array will hold the File_info objects, to sort and monitor them. 
+File_array = numpy.array[]
+
+File_directories = []
+
+for item in File_directories:
